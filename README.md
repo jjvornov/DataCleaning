@@ -20,24 +20,24 @@ All data columns other than those representing mean and standard deviation of th
 ##Codebook
 The final dataset contains means and std values for the following features in the time domain denoted by the t prefix. Using filters, acceleartion was separated into body and gravity components. Finally, Acc denotes linear acceleration and Gyro denotes angular acceleration. Jerk is a derivation combining linear and angular components. The magnitude of the signal was calcuated and denoted by Mag.
 
-tBodyAcc-XYZ 
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
 
 The following are identical but transformed in the frequency domain by FFT, denoted by the f prefix:
 
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
