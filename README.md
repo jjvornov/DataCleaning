@@ -17,6 +17,9 @@ The original data consists of separate Subject and Activity files in addition to
 
 All data columns other than those representing mean and standard deviation of the measurement vectors are removed and the mean by Subject and Activity calculated to produce the final result. 
 
+In order to read the final result, download the file into the working directory and read using:
+read.table("tidy.txt",header=TRUE)
+
 ##Codebook
 The final dataset contains means and std values for the following features in the time domain denoted by the t prefix. Using filters, acceleartion was separated into body and gravity components. Finally, Acc denotes linear acceleration and Gyro denotes angular acceleration. Jerk is a derivation combining linear and angular components. The magnitude of the signal was calcuated and denoted by Mag.
 
